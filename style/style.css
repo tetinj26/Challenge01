@@ -56,7 +56,18 @@
       width: 50%;
     }
   }
-  
+  .navbar-brand:hover{
+    background-color: #f8f9fa;
+    color: var(--text-color);
+    box-shadow: 5px 10px 30px rgb(211, 16, 16, 0.2);
+    border-radius: 4px;
+  }
+  .nav-item:hover{
+    background-color: #f8f9fa;
+    color: var(--text-color);
+    box-shadow: 5px 10px 30px rgb(245, 231, 231, 0.2);
+    border-radius: 4px;
+  }
   @media (max-width: 768px) {
     #hero h1 {
       font-size: 28px;
@@ -72,6 +83,7 @@
       width: 80%;
     }
   }
+  .nav-item:hoverh
   /*--------------------------------------------------------------
 #  Our Service 
 --------------------------------------------------------------*/
@@ -236,7 +248,7 @@ padding: top 50px;
 }
 .social-img
 {
-  transition: 0.5s;
+  transition: 0.5sb    ;
 }
 .social-img a:hover 
 {
